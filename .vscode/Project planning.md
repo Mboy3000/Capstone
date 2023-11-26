@@ -18,3 +18,6 @@ I want to build a application that helps with “adulting”. I want it to keep 
 
 ## images being used
 
+
+In terms of design I am using a mobile responsive design over mobile-first design, this is because, I consider that most people when considering things like their budget or schedule would be at a computer,
+to sit through and plan those things out. Yet they would want to check those things when they are out and about. For example, You might have a monthly budget planned and some buddies ask you if you want to go to the movies. You'd probably want to check it on your phone to see if it is in your schedule/budget to do so. However, you wouldn't want to just be on your phone when you are examing the totallity of your finances. This is why I am going with web responsive. Because the bulk of the use case would be on one's PC however, the secondary use would be on mobile.
