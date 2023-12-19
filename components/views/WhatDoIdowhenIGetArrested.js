@@ -1,37 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>What Do I Do When I Get Arrested</title>
-</head>
-<body>
-  <header>
-    <nav class="navbar">
-      <div class="brand-title">TIM</div>
-      <a href="#" class="toggle-button">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-      </a>
-      <div class="navbar-links">
-          <ul>
-              <li><a href="homePage.html">Home</a></li>
-              <li><a href="BudgetPage.html">Budget</a></li>
-              <li><a href="schedulePage.html">Schedule</a></li>
-              <li><a href="AboutPage.html">About</a></li>
-              <li class="active"><a href="Adulting101Page.html">Adulting 101</a></li>
-              <li><a href="ContactPage.html">Contact</a></li>
-              <li><a href="DisclaimerPage.html">Disclaimer</a></li>
-          </ul>
-      </div>
-  </nav>
-  </header>
+import html from "html-literal";
+export default ()=>html`
   <main>
     <article>
       <h1> What Do I Do When I Get Arrested?</h1>
+      <figure class="BannerImage">
       <img src="images\Dad.jpg" alt="Mug shot of my father">
+      </figure>
       <h2>A Quick Video Reference</h2>
       <iframe width="560" height="315"
         src="https://www.youtube.com/embed/-QK2uMX7pLc?si=M6lDXgaR0KCkdXjZ"
@@ -55,9 +29,4 @@
       </p>
     </article>
   </main>
-
-  <footer>
-  </footer>
-  <script src="button.js"></script>
-</body>
-</html>
+`

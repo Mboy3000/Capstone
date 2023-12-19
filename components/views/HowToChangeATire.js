@@ -1,35 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <link rel="images" href="images" type="images">
-    <title>How To Change A Tire</title>
-  </head>
-  <body>
-    <header>
-      <nav class="navbar">
-        <div class="brand-title">TIM</div>
-        <a href="#" class="toggle-button">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </a>
-        <div class="navbar-links">
-            <ul>
-                <li><a href="homePage.html">Home</a></li>
-                <li><a href="BudgetPage.html">Budget</a></li>
-                <li><a href="schedulePage.html">Schedule</a></li>
-                <li><a href="AboutPage.html">About</a></li>
-                <li><a href="Adulting101Page.html">Adulting 101</a></li>
-                <li><a href="ContactPage.html">Contact</a></li>
-                <li><a href="DisclaimerPage.html">Disclaimer</a></li>
-            </ul>
-        </div>
-    </nav>
-    </header>
-    <main>
+import html from "html-literal";
+export default ()=>html`
+   <main>
       <article>
         <h1>How To Change a Tire</h1>
         <img src="images\Mechanic Changing Car.jpg"height="400px"width="400px">
@@ -164,15 +135,27 @@
         <section class="Step4">
           <h2> Step 4. Loosen Your Lug Nuts</h2>
           <div>
-            <img src="images/Star Nut procedure with Tire.jpg" height="400px"width="400px"
-            alt="Diagram of the Star Nut Procedure">
-            <figcaption>
-              Source:
-            </figcaption>
+            <figure>
+              <img src="images/Star Nut procedure with Tire.jpg" height="400px"width="400px"
+              alt="Diagram of the Star Nut Procedure">
+              <figcaption>
+                Source:
+              </figcaption>
+            </figure>
+            <figure>
             <img src="images/4-Lug-Tightening-Pattern.webp" height="400px"width="400px"
             alt="Diagram of the 4-lug-Tightening pattern of the Star pattern procedure.">
-            <img src="images/5-Lug-Tightening-Pattern.webp"height="400px"width="400px"
-            alt="Diagram of the 5-Lug-Tightening-Pattern pattern of the Star pattern procedure.">
+            <figcaption>
+              Soruce:
+            </figcaption>
+            </figure>
+            <figure>
+              <img src="images/5-Lug-Tightening-Pattern.webp"height="400px"width="400px"
+              alt="Diagram of the 5-Lug-Tightening-Pattern pattern of the Star pattern procedure.">
+              <figcaption>
+                source:
+              </figcaption>
+            </figure>
             <img src="images/6-Lug-Tightening-Pattern.webp"height="400px"width="400px"
             alt="Diagram of the 6-lug-Tightening pattern of the Star pattern procedure.">
             <img src="images/8-Lug-Tightening-Pattern.webp"height="400px"width="400px"
@@ -223,9 +206,4 @@
     Email: Maxwell.Heenan@gmail.com<br>
   </address>
     </article>
-  </main>
-<footer>
-</footer>
-<script src="button.js"></script>
-</body>
-</html>
+  </main>`;

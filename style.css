@@ -1,14 +1,16 @@
-* {
-  box-sizing: border-box;
-}
+
 
 body {
-  margin: 0;
-  padding: 0;
+margin: 0;
+padding: 0;
   display:block;
   margin:0 auto;
-  background-color: aquamarine;
-}
+  min-height:100vh;
+  width:100%;
+  background: rgb(2,0,36);
+  background: linear-gradient(101deg, rgba(2,0,36,1) 0%, rgba(98,240,229,1) 35%, rgba(0,212,255,1) 100%);
+  }
+
 main{
   display: block;
   margin:0 auto;
@@ -16,6 +18,7 @@ main{
   height:100%;
   background-color: aliceblue;
   border-radius: 25px;
+  position: relative;
 
 }
 .navbar {
@@ -34,6 +37,7 @@ main{
 .brand-title {
   font-size: 1.5rem;
   margin: .5rem;
+  color: rgba(80, 255, 179, 0.84);
 }
 
 .navbar-links {
@@ -62,7 +66,8 @@ main{
   border-radius: 20px;
 }
 .navbar-links li.active{
-  background-color: rgba(127, 255, 212, 0.615);
+  padding-top: -10px;
+  background-color: rgba(80, 255, 179, 0.84);
   border-radius: 20px;
 }
 .toggle-button {
@@ -79,7 +84,7 @@ main{
 .toggle-button .bar {
   height: 3px;
   width: 100%;
-  background-color: white;
+  background-color: rgba(80, 255, 179, 0.84);;
   border-radius: 10px;
 }
 
@@ -147,5 +152,43 @@ p{
 iframe{
   display:block;
   margin:0 auto;
+  border-radius: 25px;
+}
+div .viewBox1{
+  background-color: #555;
+  justify-content: end;
+}
+div .viewBox2{
+  background-color: rgb(166, 0, 255);
+}
+button{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  background-color: rgb(74, 148, 238);
+  color: aliceblue;
+  border-radius: 25px;;
+  border: none;
+}
+figure{
+  align-items: center;
+  display: block;
+  margin:0 auto;
 }
 
+figcaption{
+  text-align: center;
+}
+figure.bannerImage{
+width:100%;
+}
+.howTosection li a{
+  display:inline-block;
+  justify-content: end;
+}
+h1{
+  color: rgba(80, 255, 179, 0.84);
+  font-size: 1.5 rem;
+  border-radius: 25px;
+  display: grid;
+}

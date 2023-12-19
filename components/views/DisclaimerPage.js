@@ -1,34 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Disclaimer</title>
-</head>
-<body>
-  <header>
-    <nav class="navbar">
-      <div class="brand-title">TIM</div>
-      <a href="#" class="toggle-button">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-      </a>
-      <div class="navbar-links">
-          <ul>
-              <li><a href="homePage.html">Home</a></li>
-              <li><a href="BudgetPage.html">Budget</a></li>
-              <li><a href="schedulePage.html">Schedule</a></li>
-              <li><a href="AboutPage.html">About</a></li>
-              <li><a href="Adulting101Page.html">Adulting 101</a></li>
-              <li><a href="ContactPage.html">Contact</a></li>
-              <li class="active"><a href="DisclaimerPage.html">Disclaimer</a></li>
-          </ul>
-      </div>
-  </nav>
-  </header>
-  <main>
+import html from "html-literal";
+export default()=>html`
+<main>
     <h1>Copyright Disclaimer</h1>
 
     <h2>Fair Use Notice</h2>
@@ -63,10 +35,4 @@
         finance lawyers, when doing your specific fincial strategy. The limitations of this tool is for a personal budget,
         and by no means sophisticated to the point to perform business strategy with.
       </p>
-  </main>
-  <footer>
-
-  </footer>
-  <script src="button.js"></script>
-</body>
-</html>
+  </main>`;
