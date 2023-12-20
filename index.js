@@ -8,7 +8,7 @@ function render(state=store.Home){
   document.querySelector("#root").innerHTML=`
   ${Nav(store.links)}
   ${Main(state)}
-  ${footer()}`;
+  ${Footer()}`;
   router.updatePageLinks();
 }
 router
