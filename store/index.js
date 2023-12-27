@@ -8,7 +8,7 @@ export{default as HowToBalanceABudget}from "./HowToBalanceABudget"
 export{default as HowToChangeATire}from "./HowToChangeATire"
 export{default as HowToTieATie}from "./HowToTieATie"
 export{default as schedulePage}from "./schedulePage"
-export{default as WhatDoIdowhenIGetArrested}from "./WhatDoIdowhenIGetArrested"
+export{default as WhatDoIDoWhenIGetArrested}from "./WhatDoIDoWhenIGetArrested"
 export{default as WhatDoIDoWhenILoseSomeoneCloseToMe}from "./WhatDoIDoWhenILoseSomeoneCloseToMe"
 export{default as WhenAndHowToChangeYourOil}from"./WhenAndHowToChangeYourOil"
 
