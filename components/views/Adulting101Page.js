@@ -24,7 +24,7 @@ export default()=>html`
               <li>
                 <figure>
                   <a href="howToBalanceABudget.html">
-                    <img src="images/Piggy Bank.jpg" alt="A piggy Bank, As a symbol for budgetting">
+                    <img src="images/Piggy Bank.jpg" alt="A piggy Bank, As a symbol for budgeting">
                   </a>
                   <figcaption>How to Balance a Budget.</figcaption>
                 </figure>
@@ -40,7 +40,7 @@ export default()=>html`
         <section class="FinanceSection">
           <h2>Finances</h2>
         </section>
-        <section class="CarrerBuilding">
+        <section class="CarerBuilding">
           <h2></h2>
           <section class="SocialSituations">
             <h2>Social Situations</h2>
@@ -49,11 +49,11 @@ export default()=>html`
         <section class="Family">
           <h2>Family</h2>
         </section>
-        <section class="WhatDoIdowhen">
+        <section class="WhatDoIDoWhen">
           <h2>What Do I Do When...</h2>
           <ul>
           <li>
-            <a href="WhatDoIdowhenIGetArrested.html">
+            <a href="WhatDoIDoWhenIGetArrested.html">
               <img src="images/Dad.jpg" alt="mugshot of my dad"
               height="200px"width="200px">
             </a>
