@@ -9,7 +9,6 @@ import axios from "axios";
 
 function render(state=store.Home){
   document.querySelector("#root").innerHTML =`
-  ${Header(state)}
   ${Nav(store.Links)}
   ${Main(state)}
   ${Footer()}
@@ -64,21 +63,6 @@ case "Home":
   });
   break;
       // Add a case for each view that needs data from an API
-      case "Pizza":
-        // New Axios get request utilizing already made environment variable
-        axios
-          .get(`${process.env.PIZZA_PLACE_API_URL}/pizzas`)
-          .then(response => {
-            // We need to store the response to the state, in the next step but in the meantime let's see what it looks like so that we know what to store from the response.
-            console.log("response", response.data);
-            store.Pizza.pizzas = response.data;
-            done();
-          })
-          .catch((error) => {
-            console.log("It puked", error);
-            done();
-          });
-          break;
       default :
         done();
     }
