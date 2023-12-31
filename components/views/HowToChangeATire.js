@@ -1,6 +1,6 @@
 import html from "html-literal";
 export default ()=>html`
-   <main>
+  <main>
       <article>
         <h1>How To Change a Tire</h1>
         <img src="images\Mechanic Changing Car.jpg"height="400px"width="400px">

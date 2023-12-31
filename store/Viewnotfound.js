@@ -1,5 +1,5 @@
 import { Viewnotfound } from ".";
 
 export default{
-view:"Viewnotfound"
+view:"Viewnotfound",
 }

@@ -1,5 +1,5 @@
 import html from "html-literal";
-export default()=>html`
+export default ()=>html`
 <main>
 <h1>
   Quick Overview
