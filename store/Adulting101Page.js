@@ -1,3 +1,3 @@
 export default{
-  view:"Adulting101Page"
+  view:"Adulting101Page",
 }
