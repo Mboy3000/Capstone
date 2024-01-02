@@ -1,3 +1,3 @@
 export default{
-  view:"HowToChangeATire",
+  view:"Howtochangeatire",
 };

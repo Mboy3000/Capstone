@@ -110,7 +110,7 @@ export default ()=>html`
               </figcaption>
             </li>
             <li>Windshield Breaker
-              <img src="" alt="Image of a WindSheild Breaker" height="400px" width="400px">
+              <img src="" alt="Image of a WindShield Breaker" height="400px" width="400px">
               <figcaption>Image source:
                   <a href=""> place holder text</a><br>
                   Artist:<a href="">Artist Place holder Text. </a>
@@ -146,7 +146,7 @@ export default ()=>html`
             <img src="images/4-Lug-Tightening-Pattern.webp" height="400px"width="400px"
             alt="Diagram of the 4-lug-Tightening pattern of the Star pattern procedure.">
             <figcaption>
-              Soruce:
+              Source:
             </figcaption>
             </figure>
             <figure>
@@ -186,8 +186,8 @@ export default ()=>html`
       <p></p>
       <h2>step 10. Finish Lowering Your Vehicle And Fully Tighten Your Lug Nuts. </h2>
       <p></p>
-      <div class="RefrenceSection">
-        <section class="Refrence Section">
+      <div class="ReferenceSection">
+        <section class="Reference Section">
           <h2>References</h2>
             <p>
             <a href=
