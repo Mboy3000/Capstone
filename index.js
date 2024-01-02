@@ -23,36 +23,7 @@ function afterRender(state) {
     document.querySelector("nav > ul").classList.toggle("hidden--mobile");
   });
 
-  if (state.view === "Home") {
-    // Do this stuff
-    document.getElementById("callToAction").addEventListener("click", event => {
-      event.preventDefault();
-
-      router.navigate("/pizza");
-    });
-  }
-
-  if (state.view === "Order") {
-    document.querySelector("form").addEventListener("submit", event => {
-      event.preventDefault();
-
-      let inputs = event.target.elements;
-
-      store.Pizza.pizzas.push({
-        crust: inputs.crust.value,
-        cheese: event.target.elements.cheese.value,
-        customer: event.target.elements.customer.value,
-        sauce: event.target.elements.sauce.value,
-        toppings: []
-      });
-
-      console.log(store.Pizza.pizzas);
-
-      router.navigate("/Pizza");
-    });
-  }
 }
-
 router.hooks({
   before: async (done, params) => {
     // We need to know what view we are on to know what data to fetch
@@ -81,16 +52,9 @@ router.hooks({
               feelsLike: kelvinToFahrenheit(response.data.main.feels_like),
               description: response.data.weather[0].main
             };
-
-            // An alternate method would be to store the values independently
-            /*
-            store.Home.weather.city = response.data.name;
-            store.Home.weather.temp = kelvinToFahrenheit(response.data.main.temp);
-            store.Home.weather.feelsLike = kelvinToFahrenheit(response.data.main.feels_like);
-            store.Home.weather.description = response.data.weather[0].main;
-            */
             done();
           })
+          // Catch any errors and log them to the console
           .catch(err => {
             console.log(err);
             done();
@@ -98,10 +62,10 @@ router.hooks({
         break;
 
       // Add a case for each view that needs data from an API
-      case "Pizza":
+      case "Adulting101Page":
         // New Axios get request utilizing already made environment variable
         axios
-          .get(`${process.env.PIZZA_PLACE_API_URL}/pizzas`)
+          .get(`${process.env.PIZZA_PLACE_API_URL}/home`)
           .then(response => {
             // We need to store the response to the state, in the next step but in the meantime
             //   let's see what it looks like so that we know what to store from the response.

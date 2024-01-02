@@ -6,7 +6,7 @@ export default ()=>html`
 </h1>
 <div class="viewBox1">
   <h2>The Schedule Box</h2>
-  <button class="ScheduleButton homePage">Calander View</button>
+  <button class="ScheduleButton homePage">Calender View</button>
   <button class="ScheduleButton homePage">List view</button>
   <button class="ScheduleButton homePage">Pie View</button>
   <button class="ScheduleButton homePage">Eisenhower-Matrix</button>

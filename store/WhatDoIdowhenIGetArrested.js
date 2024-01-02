@@ -1,3 +1,3 @@
 export default{
-  view:"WhatDoIDoWhenIGetArrested",
+  view:"Whatdoidowhenigetarrested",
 }

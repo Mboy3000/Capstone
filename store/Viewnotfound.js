@@ -1,4 +1,4 @@
-import { Viewnotfound } from ".";
+import { Viewnotfound } from "./Viewnotfound";
 
 export default{
 view:"Viewnotfound",

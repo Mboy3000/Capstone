@@ -182,13 +182,13 @@ figcaption{
 figure.bannerImage{
 width:100%;
 }
-.howTosection li a{
+.howToSection li a{
   display:inline-block;
   justify-content: end;
 }
 h1{
   color: rgba(80, 255, 179, 0.84);
-  font-size: 1.5 rem;
+  font-size: 1.5rem;
   border-radius: 25px;
   display: grid;
 }
