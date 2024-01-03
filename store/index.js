@@ -7,9 +7,10 @@ export { default as Disclaimer } from "./Disclaimer"
 export { default as Balanceabudget } from "./Balanceabudget"
 export { default as Changeatire } from "./Changeatire"
 export { default as Tieatie } from "./Tieatie"
-export { default as schedule } from "./schedule"
+export { default as Schedule } from "./Schedule"
 export { default as Whatdoidowhenigetarrested } from "./WhatdoIdowhenigetarrested"
 export { default as WhatdoidowheniLosesomeoneclosetome } from "./Whatdoidowhenilosesomeoneclosetome"
 export { default as Whenandhowtochangeyouroil } from "./Whenandhowtochangeyouroil"
 export { default as Links } from "./Links"
+
 
