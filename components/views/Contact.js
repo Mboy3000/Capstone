@@ -4,7 +4,7 @@ export default()=>html`
     <h1>Contact</h1>
     <form>
       <label for="firstName">First Name:</label>
-      <input type="text" name="firstName" id="firstName">
+      <input type="text" name="firstName" id="firstName"><br>
       <label for="lastName">Last Name:</label>
       <input type="text" name="lastName" id="lastName"><br><br>
       <label for="email">Email:</label>
