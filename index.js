@@ -8,7 +8,7 @@ const router = new Navigo("/");
 
 function render(state = store.Home) {
   document.querySelector("#root").innerHTML = `
-    ${Nav(store.Links, state)}
+    ${Nav(store.Links)}
     ${Main(state)}
     ${Footer()}
   `;
