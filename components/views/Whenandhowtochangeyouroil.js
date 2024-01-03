@@ -2,7 +2,7 @@ import html from "html-literal";
 export default ()=>html`
   <main>
     <h1>When and How To Change Your Oil</h1>
-    <h2>A Quick Video Refrence</h2>
+    <h2>A Quick Video Reference</h2>
     <iframe width="560"
       height="315" src="https://www.youtube.com/embed/O1hF25Cowv8?si=yEwiu1fVzn8suTQU"
       title="YouTube video player"

@@ -15,10 +15,10 @@ export default ()=>html`
       <h2>1st. Step Know Your Laws and Know Your Rights</h2>
       <p>
         Getting Arrested, is not fun.And well,
-        wheather you did something wrong or you are being wrongfully, arrested. It is important for
+        weather you did something wrong or you are being wrongfully, arrested. It is important for
         you to know the process, and to understand your rights.
       </p>
-      <h2>Battiling Misconceptions</h2>
+      <h2>Battling Misconceptions</h2>
       <p>
         Many people have misconceptions about the law and the police, primarily due to Hollywood
         media. And often have the "well you shouldn't have been doing what your were doing to get arrested in the first place"
