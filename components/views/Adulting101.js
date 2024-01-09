@@ -2,13 +2,13 @@ import html from "html-literal";
 export default ()=>html`
 <main>
       <h1>Adulting 101</h1>
-          <section class="howToSection">
+          <!--<section class="howToSection">
             <h2>How Do I...</h2>
             <Ul>
               <li>
                   <figure>
-                    <a href="HowToChangeATire.html">
-                      <img src="images\Mechanic Changing Car.jpg"height="200px"width="200px">
+                    <a href="HowToChangeATire.html"
+                   <img src="images\Mechanic Changing Car.jpg"height="200px"width="200px">
                     </a>
                     <figcaption>How to Change a Tire </figcaption>
                   </figure>
@@ -65,5 +65,5 @@ export default ()=>html`
               <figcaption>What Do I Do When I Lose Someone Close?</figcaption>
             </a>
           </ul>
-        </section>
+        </section>-->
   </main>`;

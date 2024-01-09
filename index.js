@@ -62,7 +62,7 @@ router.hooks({
         break;
 
       // Add a case for each view that needs data from an API
-      case "Adulting101Page":
+      case "Contact":
         // New Axios get request utilizing already made environment variable
         axios
           .get(`${process.env.PIZZA_PLACE_API_URL}/home`)
@@ -70,7 +70,7 @@ router.hooks({
             // We need to store the response to the state, in the next step but in the meantime
             //   let's see what it looks like so that we know what to store from the response.
             console.log("response", response.data);
-            store.Pizza.pizzas = response.data;
+            store.Contact.pizzas = response.data;
 
             done();
           })
