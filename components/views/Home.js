@@ -11,6 +11,8 @@ export default ()=>html`
   <button class="ScheduleButton homePage">Pie View</button>
   <button class="ScheduleButton homePage">Eisenhower-Matrix</button>
   <p>This is were the first view box will be. </p>
+  <canvas width="1016" height="508" style="display: block; box-sizing: border-box; height: 254px; width: 508px;"></canvas>
+
 </div>
 
 <div class="viewBox2">
