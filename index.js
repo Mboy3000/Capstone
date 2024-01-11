@@ -3,6 +3,7 @@ import * as store from "./store";
 import Navigo from "navigo";
 import { capitalize } from "lodash";
 import axios from "axios";
+import { About } from "./components/views";
 
 const router = new Navigo("/");
 
@@ -12,6 +13,23 @@ function render(state = store.Home) {
     ${Main(state)}
     ${Footer()}
   `;
+
+
+  async function loadPage(home) {
+    try {
+      const response = await fetch(`./pages/${pageName}.html`);
+      const content = await response.text();
+      document.getElementById('app').innerHTML = content;
+    } catch (error) {
+      console.error('Error loading page:', error);
+    }
+  }
+
+  // Event listener for clicks on the image
+  document.getElementById('yourImageId').addEventListener('click', () => {
+    loadPage(About); // Change 'about' to the actual page name you want to load
+  });
+
 
   router.updatePageLinks();
   afterRender(state);

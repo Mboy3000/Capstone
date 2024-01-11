@@ -1,194 +1,79 @@
 
 
-body {
-margin: 0;
-padding: 0;
-  display:block;
-  margin:0 auto;
-  min-height:100vh;
-  width:100%;
-  background: rgb(2,0,36);
-  background: linear-gradient(101deg, rgba(2,0,36,1) 0%, rgba(98,240,229,1) 35%, rgba(0,212,255,1) 100%);
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 549px){
+  .hidden--mobile {
+    display: none !important;
   }
 
-main{
-  display: block;
-  margin:0 auto;
-  width: 85%;
-  height:100%;
-  background-color: aliceblue;
-  border-radius: 25px;
-  position: relative;
-
-}
-.navbar {
-  display: flex;
-  position: relative;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #333;
-  color: white;
-  padding-bottom: 15px;
-  border-radius: 15px;
-  width:100%;
-  margin:0;
-}
-
-.brand-title {
-  font-size: 1.5rem;
-  margin: .5rem;
-  color: rgba(80, 255, 179, 0.84);
-}
-
-.navbar-links {
-  height: 100%;
-}
-
-.navbar-links ul {
-  display: flex;
-  margin: 0;
-  padding: 0;
-}
-
-.navbar-links li {
-  list-style: none;
-}
-
-.navbar-links li a {
-  display: block;
-  text-decoration: none;
-  color: white;
-  padding: 1rem;
-}
-
-.navbar-links li:hover {
-  background-color: #555;
-  border-radius: 20px;
-}
-.navbar-links li.active{
-  padding-top: -10px;
-  background-color: rgba(80, 255, 179, 0.84);
-  border-radius: 20px;
-}
-.toggle-button {
-  position: absolute;
-  top: .75rem;
-  right: 1rem;
-  display: none;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 30px;
-  height: 21px;
-}
-
-.toggle-button .bar {
-  height: 3px;
-  width: 100%;
-  background-color: rgba(80, 255, 179, 0.84);;
-  border-radius: 10px;
-}
-
-@media (max-width: 800px) {
-  .navbar {
-      flex-direction: column;
-      align-items: flex-start;
+  nav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
 
-  .toggle-button {
-      display: flex;
+  nav > i {
+    padding: 1rem;
+    font-size: 2em;
   }
 
-  .navbar-links {
-      display: none;
-      width: 100%;
+  nav > ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 0;
   }
 
-  .navbar-links ul {
-      width: 100%;
-      flex-direction: column;
-  }
 
-  .navbar-links ul li {
-      text-align: center;
-  }
 
-  .navbar-links ul li a {
-      padding: .5rem 1rem;
-  }
-
-  .navbar-links.active {
-      display: flex;
+  #bio img {
+    float: left;
+    width: 40%;
+    height: auto;
+    margin-right: 1rem;
   }
 }
-h1,h2{
-  display: flex;
-  justify-content: center;
-  margin:20px;
-  padding:0;
-}
-img{
-  display:block;
-  margin:0 auto;
-  border-radius: 25px;
-  width:400px;
-  height:400px;
-}
-li img{
-  display:block;
-  margin:0 auto;
-  border-radius: 25px;
-  width:200px;
-  height:200px;
-}
-li{
-  display:block;
-  margin:0 auto;
-}
-p{
-  display:block;
-  margin:0 auto;
-  width:80%;
-}
-iframe{
-  display:block;
-  margin:0 auto;
-  border-radius: 25px;
-}
-div .viewBox1{
-  background-color: #555;
-  justify-content: end;
-}
-div .viewBox2{
-  background-color: rgb(166, 0, 255);
-}
-button{
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 10px;
-  background-color: rgb(18, 113, 231);
-  color: aliceblue;
-  border-radius: 25px;;
-  border: none;
-}
-figure{
-  align-items: center;
-  display: block;
-  margin:0 auto;
-}
 
-figcaption{
-  text-align: center;
-}
-figure.bannerImage{
-width:100%;
-}
-.howToSection li a{
-  display:inline-block;
-  justify-content: end;
-}
-h1{
-  color: rgba(80, 255, 179, 0.84);
-  font-size: 1.5rem;
-  border-radius: 25px;
-  display: grid;
+@media (min-width: 550px) {
+  nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 0;
+  }
+
+  nav > ul > li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.5rem;
+    list-style-type: none;
+    padding: 0.5rem 0.5rem;
+    border-radius: 25px;
+  }
+  nav>ul>li>a{
+    text-decoration: none;
+  }
+
+  nav > .fa-bars {
+    display: none;
+  }
+
+  #bio {
+    margin-right: 3rem;
+  }
+
+  #bio img {
+    float: left;
+    width: 25%;
+    height: auto;
+    margin-right: 1rem;
+  }
 }
