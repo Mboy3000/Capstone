@@ -1,9 +1,14 @@
 import html from "html-literal";
+import TIM from"../../images/TIM LOGO.png";
+
 export default ()=>html`
 <main>
-<h1>
+  <h1>Time Is Money</h1>
+  <a href="http://localhost:1234/About"><img src="${TIM}"></a>
+  <h2>meet TIM</h2>
+<h2>
   Quick Overview
-</h1>
+</h2>
 <div class="viewBox1">
   <h2>The Schedule Box</h2>
   <button class="ScheduleButton homePage">Calender View</button>
