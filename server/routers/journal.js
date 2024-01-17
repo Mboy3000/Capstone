@@ -1,5 +1,5 @@
 import {Router} from "express";
-import Journal from "../models/Journal";
+import Journal from "../models/Journal.js";
 const router=Router();
 
 router.post("/",async(request,response)=>{

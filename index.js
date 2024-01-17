@@ -43,6 +43,27 @@ function afterRender(state) {
   });
 
 }
+if(state.view==="Journal"){
+  // add an event handler for the submit button on the form
+  document.querySelector("form").addEventListener("submit",event=>{
+    event.preventDefault();
+
+    // get the form element
+    const inputList=event.target.elements;
+    console.log("InputElement Lists",inputList);
+
+    // create a request body object to send to the API
+    const requestData={
+      journal:inputList.journal.value,
+    };
+
+    //log the request body to the console.
+    console.log("Request Body",requestData);
+  });
+  axios
+  // make a post request to the API to create a new journal
+  .post(`process.env.s`)
+}
 router.hooks({
   before: async (done, params) => {
     // We need to know what view we are on to know what data to fetch
