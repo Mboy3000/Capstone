@@ -5,6 +5,7 @@ import { capitalize } from "lodash";
 import axios from "axios";
 import { About } from "./components/views";
 
+
 const router = new Navigo("/");
 
 function render(state = store.Home) {

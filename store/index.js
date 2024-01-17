@@ -12,5 +12,7 @@ export { default as Whatdoidowhenigetarrested } from "./WhatdoIdowhenigetarreste
 export { default as WhatdoidowheniLosesomeoneclosetome } from "./Whatdoidowhenilosesomeoneclosetome"
 export { default as Whenandhowtochangeyouroil } from "./Whenandhowtochangeyouroil"
 export { default as Links } from "./Links"
+export{default as Adulting}from "./Adulting"
+export{default as Journal}from"./Journal"
 
 

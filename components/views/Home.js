@@ -1,14 +1,15 @@
 import html from "html-literal";
-import TIM from"../../images/TIM LOGO.png";
 
-export default ()=>html`
+
+export default (state)=>html`
 <main>
   <h1>Time Is Money</h1>
-  <a href="http://localhost:1234/About"><img src="${TIM}"></a>
   <h2>meet TIM</h2>
 <h2>
   Quick Overview
 </h2>
+<h2>The Weather</h2>
+<p>The weather in ${state.weather.city} is ${state.weather.description}. Temperature is ${state.weather.temp}F, and it feels like ${state.weather.feelsLike}F.</p>
 <div class="viewBox1">
   <h2>The Schedule Box</h2>
   <button class="ScheduleButton homePage">Calender View</button>
@@ -26,4 +27,4 @@ export default ()=>html`
     <button>Pie Chart</button>
     <button>Bar Graph</button>
     <button>Linear-graph</button>
-  </main>`;
+</main>`;

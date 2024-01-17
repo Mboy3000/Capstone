@@ -18,8 +18,7 @@ export default ()=>html`
     <a href="https://www.autozone.com/diy/motor-oil/how-and-when-to-check-your-oil">Auto Zone</a><br>
     <a href="https://www.rymax-lubricants.com/updates/how-often-do-you-check-your-engine-oil/">rymax-lubricants<br></a>
     <a href="https://www.kbb.com/car-advice/maintenance-guide/">Kelly Blue Book<br></a>
-    <a href=""><br></a>
-    <a href=""><br></a>
+
 </p>
   </main>
   `;
